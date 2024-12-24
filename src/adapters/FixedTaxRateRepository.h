@@ -1,5 +1,5 @@
 /*******************************************************************************
- * @file  /HexagonaArchitectureDemo/src/adapters/FixedTaxRateRepository.hFIxedTaxRateRepository.h
+ * @file  /HexagonaArchitectureDemo/src/adapters/FixedTaxRateRepository.h
  *
  * @brief
  *

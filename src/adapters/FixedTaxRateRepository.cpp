@@ -1,5 +1,5 @@
 /*******************************************************************************
- * @file  /HexagonaArchitectureDemo/src/adapters/FixedTaxRateRepository.cppFIxedTaxRateRepository.cpp
+ * @file  /HexagonaArchitectureDemo/src/adapters/FixedTaxRateRepository.cpp
  *
  * @brief
  *

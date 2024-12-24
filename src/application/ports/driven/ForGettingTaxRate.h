@@ -1,5 +1,5 @@
 /*******************************************************************************
- * @file  /HexagonaArchitectureDemo/src/application/ports/driven/ForGettingTaxRate.hForGettingTaxRate.h
+ * @file  /HexagonaArchitectureDemo/src/application/ports/driven/ForGettingTaxRate.h
  *
  * @brief
  *

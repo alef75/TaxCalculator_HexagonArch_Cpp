@@ -1,5 +1,5 @@
 /*******************************************************************************
- * @file  /HexagonaArchitectureDemo/src/taxCalculator.cpptaxCalculator.cpp
+ * @file  /HexagonaArchitectureDemo/src/taxCalculator.cpp
  *
  * @brief
  *
