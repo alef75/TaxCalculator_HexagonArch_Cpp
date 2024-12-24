@@ -54,7 +54,7 @@ class TestTaxRateRepository : public ForGettingTaxRate
     explicit TestTaxRateRepository(float rate) : _rate(rate)
     {
         if(_rate < 0)
-            throw std::invalid_argument("Tax Rate shoul be not negative");
+            throw std::invalid_argument("Tax Rate should be not negative");
     }
 
     float getTaxRate(float amount) const override
