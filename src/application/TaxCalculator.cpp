@@ -13,7 +13,7 @@
 
 #include "TaxCalculator.h"
 
-float TaxCalculator::taxOn(float amount) const
+float TaxCalculator::taxOn(const float amount) const
 {
     return amount * _taxRateRepository->getTaxRate(amount);
 }

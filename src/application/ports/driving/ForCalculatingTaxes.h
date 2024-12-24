@@ -17,8 +17,8 @@
 class ForCalculatingTaxes
 {
   public:
-    virtual ~ForCalculatingTaxes()          = default;
-    virtual float taxOn(float amount) const = 0;
+    virtual ~ForCalculatingTaxes()                = default;
+    virtual float taxOn(const float amount) const = 0;
 };
 
 #endif /* SRC_APPLICATION_PORTS_DRIVING_FORCALCULATINGTAXES_H_ */

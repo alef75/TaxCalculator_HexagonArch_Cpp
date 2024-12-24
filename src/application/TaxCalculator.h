@@ -24,10 +24,12 @@ class TaxCalculator : public ForCalculatingTaxes
     std::unique_ptr<const ForGettingTaxRate> _taxRateRepository;
 
   public:
-    explicit TaxCalculator(std::unique_ptr<const ForGettingTaxRate> repository) : _taxRateRepository(std::move(repository))
+    explicit TaxCalculator(std::unique_ptr<const ForGettingTaxRate> taxRepository)
+        : _taxRateRepository(std::move(taxRepository))
     {
     }
-    float taxOn(float amount) const override;
+
+    float taxOn(const float amount) const override;
 };
 
 #endif /* SRC_APPLICATION_TAXCALCULATOR_H_ */
