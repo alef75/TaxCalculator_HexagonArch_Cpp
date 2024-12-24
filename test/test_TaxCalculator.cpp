@@ -87,7 +87,7 @@ TEST_F(TaxCalculatorTest, should_reject_negative_tax_rate)
     }
     catch(const std::invalid_argument &ex)
     {
-        EXPECT_STREQ(ex.what(), "Tax Rate shoul be not negative");
+        EXPECT_STREQ(ex.what(), "Tax Rate should be not negative");
     }
     catch(...)
     {
